@@ -2,10 +2,12 @@
  * Entry point for Chosen UI, create an instance of this class to
  * configure your custom settings and to create new UI elements.
  */
-public class ChosenUIMod
+class com.chosen.ui.ChosenUIAddon
 {
-    public function ChosenUIMod()
+	public var addonName:String;
+	
+    public function ChosenUIAddon(addonName:String)
     {
-
+		this.addonName = addonName;
     }
 }
